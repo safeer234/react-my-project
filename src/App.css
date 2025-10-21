@@ -1,0 +1,80 @@
+@import "tailwindcss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#div1{
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-bottom: 160px;
+    width: 555px;
+    height: 474px;
+}
+#searchbar{
+    border: 1px solid grey;
+    
+}
+ ::placeholder{
+color: grey;
+font-style: italic;
+
+}
+#button{
+    color: white;
+    height: 71px;
+}
+#mainimg{
+    margin-top: 67px;
+}
+#img2{
+    margin-top: 159px;
+    margin-left: 4px;
+    margin-right: 97px;
+    width: 108px;
+    height: 108px;
+    outline: 1px solid gray;
+    border-radius: 90px;
+}
+#img3{
+    padding: 6px;
+    margin-right: 97px;
+    margin-top: 54px;
+    width: 98px;
+    height: 98px;
+    outline: 1px solid gray;
+    border-radius: 90px;
+    overflow: hidden;
+
+}
+#img4{
+    overflow: hidden;
+    margin-top: 54px;
+    margin-right: 97px;
+    outline: 1px solid gray;
+    border-radius: 90px;
+}
+#searchme{
+    width: 299px;
+    border: hidden;
+    margin-left: 28px;
+    margin-top: 14px;
+    margin-bottom: 18px;
+}
+#btn{
+margin-top: 11px;
+margin-left: 30px;
+margin-right: 11px;
+margin-bottom: 11px;
+}
